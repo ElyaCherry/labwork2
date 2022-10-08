@@ -80,8 +80,8 @@ git flow hotfix finish "name" -m "comment"
 Также как и все остальные элементы git-flow фиксы публиковать и получать с удалённого репозитория:
 
 ```
-git flow hotfix publish [name]
-git flow hotfix pull origin [name]
+git flow hotfix publish "name"
+git flow hotfix pull origin "name"
 ```
 
 ## Работа с LFS
